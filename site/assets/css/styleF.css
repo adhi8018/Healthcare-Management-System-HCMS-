@@ -1,0 +1,21 @@
+/* styleF.css - css for form */
+/* Importing Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: repeating-linear-gradient(white,rgb(160, 247, 255), white);
+}
+
+form{
+     margin: auto;
+     padding: 60px;
+     box-shadow:  0 8px 11px 0 rgba(0, 0, 0, 0.2), 0 9px 30px 0 rgba(0, 0, 0, 0.19);
+     background-color: white;
+     border-radius: 10px;
+}

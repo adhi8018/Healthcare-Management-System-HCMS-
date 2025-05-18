@@ -1,0 +1,213 @@
+/* CSS File  */
+/* Importing Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* html, body {
+    overflow-x: hidden;
+} */
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navbar of Site  */
+nav{
+    font-size: 1.35rem;
+    font-weight: 600;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    background-color: #64dbed ;
+  
+}
+.para{
+    font-size: 1.55rem;
+    padding-top: 2px;
+    margin: 3px;
+}
+
+/*  Nav left */
+.navl{
+    margin-right: 50px;
+}
+
+.navl:hover{    
+    transform: scale(1.1);
+}
+
+
+/* --------------------------------------- */
+
+/*  Carousel */
+
+.carousel{
+margin: 10px 0 ;
+    height: 500px;
+    width: 100%;
+    border-radius: 0.75%;
+    color: black;
+}
+
+.cour1{
+    height: 480px;
+    width: 100%;
+    border-radius: 0.75%;
+}
+
+
+/* ----------------------------------------------------- */
+/* Register */
+
+/* background color */
+.register{
+    background-image: repeating-linear-gradient(white,rgb(160, 247, 255), white);
+    height: 680px;
+}
+/* head */
+.reg_para{
+    padding-top: 35px;
+    text-decoration: underline dashed;
+    text-shadow: 5px 5px 4px rgb(172, 170, 170);
+    font-size: 45px;
+}
+
+/* Cards */
+.box_reg{
+    height: 290px;
+    width: 300px;
+    text-align: center;
+    margin-top: 150px ; 
+  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: hover ;
+}
+.box_reg:hover{
+    transform: scale(1.1);
+}
+
+/* Card Image */
+.card-img-top{
+    height: 220px;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ----------------------------- */
+/* login page */
+
+.log{
+    background-image: repeating-linear-gradient(white,rgb(160, 247, 255), white);
+    text-align: justify;
+}
+
+.box_log{
+    margin: 0 auto;
+    box-shadow:  0 8px 11px 0 rgba(0, 0, 0, 0.2), 0 9px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.log_img{
+    width: 100%;
+    height: 500px;
+}
+
+/* ------------------------------ */
+/*  About page */
+.about_head {
+    margin-top: 15px;
+    text-align: justify;
+    justify-content: center;
+}
+
+
+.ab_row .section-right{
+   flex-direction: row-reverse;
+}
+
+.thumbnail .sec_img{
+    height: 200px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+.thumbnail .sec_img:hover{
+    transform: scale(1.25);
+}
+
+
+.ab_row{
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+}
+
+.sectionTag{
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.sectionSubTag{
+    font-size: 20%;
+}
+
+/* ------------------------ */
+/*Regiester section */
+
+.reg_section_main{
+    text-align: center;  
+    align-items: center;
+    background-image: repeating-linear-gradient(white,rgb(160, 247, 255), white);
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.row_reg_section{
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.row_reg_section .sec .reg_card_section{
+   text-decoration: none;
+    box-shadow:  0 8px 11px 0 rgba(0, 0, 0, 0.2), 0 9px 30px 0 rgba(0, 0, 0, 0.19);
+    height: 310px;
+    width: 310px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    transition: transform 0.3s;
+    justify-content: space-between;
+}
+
+.row_reg_section .sec .reg_card_section:hover{
+    transform: scale(1.15);
+}
+
+.row_reg_section .sec .reg__sec_card_img {
+    border-radius: 10px;
+    width: 290px;
+    height: 280px; 
+    display: block;
+    margin: 0 auto;
+    padding: 2px;
+    padding-top: 5px;
+}
